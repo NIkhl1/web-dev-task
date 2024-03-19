@@ -1,0 +1,13 @@
+• Mention name or emai Id: n.rohithprmr@gmail.com
+• Task Title:  Responsive Company Member Team Page
+• Task Description: to develop a responsive web page for the Company Member Team
+Page. The design reference is provided in the attached file named "designed-1." Utilize HTML
+and CSS to bring this design to life, ensuring responsiveness across various devices. This
+project allows you to showcase your coding skills and creativity while adhering to the design
+reference.
+
+• Steps Taken: Taken lot of steps and did my best wht i can
+• Challenges Faced: Well not much but need to practice more on HTML and CSS
+• Solutions Implemented: The solutions are like need to be more to show but its not that good one 
+• Learnings: I have  Learned that i need to increase my skills and learn more and do more practics
+• Project Update: Have completed it 

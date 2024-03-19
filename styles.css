@@ -1,0 +1,237 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+body, h1, h2, h3, p, article {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set body font and background color */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    border-bottom: 3px solid #ffcd00;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  /* Main content styles */
+  main {
+    padding: 20px;
+  }
+  
+  /* Section styles */
+  section {
+    margin-bottom: 40px;
+  }
+  
+  /* Article styles */
+  article {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  article h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  article p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 3px solid #ffcd00;
+  }
+  
+  footer p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  /* Centering h2 elements */
+  h2 {
+    text-align: center;
+  }
+  
+  /* Divider between team members */
+  article + article {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+  }
+  
+  /* Hover effect on articles */
+  article:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Background color change on hover */
+  article:hover {
+    background-color: #f5f5f5;
+  }
+  /* Order the h3 tags within each article */
+article:nth-child(odd) h3 {
+    color: #ff6347; /* Red color for odd-indexed h3 tags */
+  }
+  
+  article:nth-child(even) h3 {
+    color: #4682b4; /* Blue color for even-indexed h3 tags */
+  }
+  /* Grid layout for team members */
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  /* Image styles */
+  .team-grid img {
+    display: block;
+    width: 100%; /* Make the images fill the grid column */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px;
+  }
+  
+  /* Center h3 tags */
+  .team-grid h3 {
+    text-align: center;
+  }
+  /* Grid layout for team members */
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  /* Style for each team member */
+  .team-member {
+    text-align: center;
+  }
+  
+  /* Image styles */
+  .team-member img {
+    width: 100%; /* Make the images fill their containers */
+    max-width: 200px; /* Limit maximum width of images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make the images circular */
+  }
+  
+  /* Center h3 tags */
+  .team-member h3 {
+    margin-top: 10px; /* Add space between image and h3 */
+  }
+  /* Grid layout for team members */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+/* Style for each team member */
+.team-member {
+  text-align: center;
+  border: 1px solid #ccc; /* Add border for visualization */
+  padding: 20px;
+}
+
+/* Image styles */
+.team-member img {
+  width: 100%; /* Make the images fill their containers */
+  max-width: 200px; /* Limit maximum width of images */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Make the images circular */
+}
+
+/* Center h3 tags */
+.team-member h3 {
+  margin-top: 10px; /* Add space between image and h3 */
+}
+
+/* Arrange h3 tags in two rows */
+.team-member h3 {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.team-member h3:nth-of-type(1) {
+  max-width: 100%;
+}
+
+.team-member h3:nth-of-type(2) {
+  max-width: 100%;
+  margin-top: 10px; /* Add space between the rows */
+}
+/* Grid layout for team members */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+/* Style for each team member */
+.team-member {
+  text-align: center;
+  border: 1px solid #ccc; /* Add border for visualization */
+  padding: 20px;
+}
+
+/* Image styles */
+.team-member img {
+  width: 100%; /* Make the images fill their containers */
+  max-width: 200px; /* Limit maximum width of images */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Make the images circular */
+}
+
+/* Center h3 tags */
+.team-member h3 {
+  margin-top: 10px; /* Add space between image and h3 */
+}
+
+/* Arrange h3 tags in two rows */
+.team-member h3 {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.team-member h3:nth-of-type(1) {
+  max-width: 100%;
+}
+
+.team-member h3:nth-of-type(2) {
+  max-width: 100%;
+  margin-top: 10px; /* Add space between the rows */
+}
